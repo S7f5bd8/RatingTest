@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+   <RatingBar
+       android:id="@+id/r1"
+       android:rating="1.5"
+       android:layout_marginBottom="15dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+    <RatingBar
+        android:id="@+id/r2"
+        android:numStars="10"
+        android:stepSize="1"
+        android:layout_marginBottom="15dp"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RatingBar
+        android:id="@+id/r3"
+        android:layout_marginBottom="25dp"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnInc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="증가하기" />
+
+    <Button
+        android:id="@+id/btnDec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감소하기" />
+
+
+</LinearLayout>
